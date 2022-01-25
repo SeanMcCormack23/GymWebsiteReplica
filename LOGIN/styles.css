@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #ccc;
+}
+header {
+  height: 110px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgb(6, 14, 129);
+  z-index: 1;
+}
+.mainContent {
+  margin-left: 280px;
+  margin-top: 110px;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  border: 2px solid rgba(139, 138, 138, 0.7);
+  border-radius: 5px;
+  box-shadow: 0 0 3px black;
+  width: 45%;
+  
+}
+.left {
+  margin-right: 20px;
+}
+ .sideNav {
+  height: 100%;
+  width: 280px;
+  position: fixed;
+  z-index: 0;
+  top: 110px;
+  left: 0;
+  background-color: lightblue;
+}
+.sideNav li {
+  list-style: none;
+  color: white;
+}
+form {
+  padding: 10px;
+}
+input[type = text], input[type=button], input[type=password] {
+  width: 70%;
+}
